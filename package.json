@@ -1,0 +1,28 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "a node app for test",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "cd app/plugins && bower install",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabhdaffodil/node.git"
+  },
+  "keywords": [
+    "node",
+    "app"
+  ],
+  "author": "sourabh rustagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourabhdaffodil/node/issues"
+  },
+  "homepage": "https://github.com/sourabhdaffodil/node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "node-app",
+  "description": "a node app for test",
+  "main": "app.js",
+  "authors": [
+    "sourabh rustagi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "app"
+  ],
+  "homepage": "https://github.com/sourabhdaffodil/node",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngMask": "angular-mask#^3.1.1",
+    "angular": "1.6.6",
+    "schema-form-datetimepicker": "chengz/schema-form-datetimepicker",
+    "angular-base64": "2.0.5",
+    "angular-base64-upload": "v0.1.23",
+    "angular-ckeditor": "1.0.3",
+    "angular-drag-and-drop-lists": "2.1.0",
+    "angular-file-saver": "1.1.3",
+    "angular-file-upload": "2.5.0",
+    "angular-messages": "1.6.8",
+    "angular-password": "1.0.3",
+    "angular-sanitize": "1.6.6",
+    "angular-schema-form": "0.8.13",
+    "angular-schema-form-base64-file-upload": "1.1.2",
+    "angular-schema-form-bootstrap": "0.2.0",
+    "angular-schema-form-dynamic-select": "0.14.5",
+    "angular-schema-form-nwp-file-upload": "*",
+    "angular-ui-sortable": "0.17.1",
+    "angular-upload": "1.0.12",
+    "angularMultipleSelect": "angular-multiple-select#v1.1.2",
+    "highcharts": "v5.0.14",
+    "highcharts-ng": "1.1.0",
+    "mb-scrollbar": "2.0.0",
+    "moment": "2.8.4",
+    "pickadate": "3.5.6"
+  }
+}
